@@ -4,6 +4,12 @@
 	font-family: Anton, "Open Sans";
 	font-size: 16px;
 }
+html{
+	background-color: #333;
+}
+section, footer{
+	background-color: white;
+}
 
 header{
 	background:url("../img/header-bg.jpg") no-repeat top/cover;
@@ -77,6 +83,10 @@ header{
 	letter-spacing: 0.1em;
 	margin-top: 23px;
 	text-transform: uppercase;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
 .offer a:hover{
@@ -85,7 +95,7 @@ header{
 	transform: rotate(-5deg);
 }
 section{
-	margin-top: 114px;
+	padding-top: 114px;
 }
 section h2{
 	font-size: 50px;
